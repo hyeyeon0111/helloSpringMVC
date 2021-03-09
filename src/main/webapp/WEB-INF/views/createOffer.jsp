@@ -8,39 +8,46 @@
 <meta charset="UTF-8">
 <title>Create Offer</title>
 
-<link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/resources/css/main.css">
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/main.css">
 
 </head>
 <body>
 
-	<sf:form method="post"
-		action="${pageContext.request.contextPath}/doCreate"
-		modelAttribute="offer">
-		
-		<table class="formtable">
-			<tr>
-				<td class="label">Name:</td>
-				<td><sf:input class="control" type="text" path="name" /> <br/>
-				<sf:errors path="name" class="error" /></td>
-			</tr>
-			<tr>
-				<td class="label">Email:</td>
-				<td><sf:input class="control" type="text" path="email" /> <br/>
-				<sf:errors path="email" class="error" /></td>
-			</tr>
-			<tr>
-				<td class="label">Offer:</td>
-				<td><sf:textarea class="control" path="text" rows="10" cols="10" /> <br/>
-				<sf:errors path="text" class="error" /></td>
-			</tr>
-			<tr>
-				<td class="label"></td>
-				<td><input class="control" type="submit" value="새 제안">
-				</td>
-			</tr>
-		</table>
-	</sf:form>
+	<div class="container-wrapper">
+		<div class="container">
+			<h1>Create Offer</h1>
+			<p class="lead">Fill the below information to create a offer:</p>
+			
+			<sf:form method="post"
+				action="${pageContext.request.contextPath}/doCreate"
+				modelAttribute="offer">
+				
+				<div class="form-group">
+					<label>Name</label>
+					<sf:input class="form-control" type="text" placeholder="Enter name" path="name"/>
+					<span style="color:#ff0000;"><sf:errors path="name"/></span>			
+				</div>
+				
+				<div class="form-group">
+					<label>Email</label>
+					<sf:input class="form-control" type="text" placeholder="Enter email" path="email"/>
+					<span style="color:#ff0000;"><sf:errors path="email"/></span>
+				</div>
+				
+				<div class="form-group">
+					<label>Offer</label>
+					<sf:textarea class="form-control" placeholder="Enter offer" path="text"/>
+					<span style="color:#ff0000;"><sf:errors path="text"/></span>
+				</div>
+				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</sf:form>
+			
+		</div>
+	</div>
 
 </body>
 </html>
