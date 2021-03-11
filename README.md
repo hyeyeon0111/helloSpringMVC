@@ -71,43 +71,49 @@ Spring MVC framework, Spring Web Form, Spring Security 실습 프로젝트
 
 offers 조회
 
-<img src="https://user-images.githubusercontent.com/56067179/110725539-1d4aac80-825b-11eb-8009-8fb5706e8e80.PNG" width="500"/> <img src="https://user-images.githubusercontent.com/56067179/110725550-2471ba80-825b-11eb-888f-ad61a9af2ab1.PNG" width="500"/>
+<img src="https://user-images.githubusercontent.com/56067179/110725539-1d4aac80-825b-11eb-8009-8fb5706e8e80.PNG" width="600"/>
+<img src="https://user-images.githubusercontent.com/56067179/110725550-2471ba80-825b-11eb-888f-ad61a9af2ab1.PNG" width="600"/>
 
 
 - **home > add a new offer**
 
 잘못된 password 입력 👉 error message 출력
 
-<img src="https://user-images.githubusercontent.com/56067179/110725598-33586d00-825b-11eb-8637-ac26cf90edb7.PNG" width="500"/> <img src="https://user-images.githubusercontent.com/56067179/110725602-35223080-825b-11eb-9637-136639b2f943.PNG" width="500"/>
+<img src="https://user-images.githubusercontent.com/56067179/110725598-33586d00-825b-11eb-8637-ac26cf90edb7.PNG" width="600"/>
+<img src="https://user-images.githubusercontent.com/56067179/110725602-35223080-825b-11eb-9637-136639b2f943.PNG" width="600"/>
 
 맞는 password 입력, ROLE_USER 👉 createOffer 페이지로 이동
 
-<img src="https://user-images.githubusercontent.com/56067179/110725609-39e6e480-825b-11eb-8a11-8f002b847378.PNG" width="500"/> <img src="https://user-images.githubusercontent.com/56067179/110725569-2a679b80-825b-11eb-8500-565601d150e2.PNG" width="500"/>
+<img src="https://user-images.githubusercontent.com/56067179/110725609-39e6e480-825b-11eb-8a11-8f002b847378.PNG" width="600"/>
+<img src="https://user-images.githubusercontent.com/56067179/110725569-2a679b80-825b-11eb-8500-565601d150e2.PNG" width="600"/>
 
 
 - **createOffer**
 
 error message examples
 
-<img src="https://user-images.githubusercontent.com/56067179/110726554-ee353a80-825c-11eb-84f4-fc2e0f6b4670.PNG" width="500"/> <img src="https://user-images.githubusercontent.com/56067179/110726586-fc835680-825c-11eb-98da-4b20a47d8e1b.PNG" width="500"/>
+<img src="https://user-images.githubusercontent.com/56067179/110726554-ee353a80-825c-11eb-84f4-fc2e0f6b4670.PNG" width="600"/>
+<img src="https://user-images.githubusercontent.com/56067179/110726586-fc835680-825c-11eb-98da-4b20a47d8e1b.PNG" width="600"/>
 
 
 - **fill up a web form > doCreate**
 
-<img src="https://user-images.githubusercontent.com/56067179/110726565-f42b1b80-825c-11eb-873d-a7ca2a77807a.PNG" width="500"/> <img src="https://user-images.githubusercontent.com/56067179/110725647-48350080-825b-11eb-89f2-fbb694b95620.PNG" width="500"/>
+<img src="https://user-images.githubusercontent.com/56067179/110726565-f42b1b80-825c-11eb-873d-a7ca2a77807a.PNG" width="600"/>
+<img src="https://user-images.githubusercontent.com/56067179/110725647-48350080-825b-11eb-89f2-fbb694b95620.PNG" width="600"/>
 
 
 - **offers 조회**
 
 새로운 제안이 추가됨
 
-<img src="https://user-images.githubusercontent.com/56067179/110725651-49662d80-825b-11eb-9038-7bbd0b6d0fca.PNG" width="500"/>
+<img src="https://user-images.githubusercontent.com/56067179/110725651-49662d80-825b-11eb-9038-7bbd0b6d0fca.PNG" width="600"/>
 
 
 - **logout**
 
 logout success message 출력
 
-<img src="https://user-images.githubusercontent.com/56067179/110725663-4d924b00-825b-11eb-947e-59a4d0174e62.PNG" width="500"/> <img src="https://user-images.githubusercontent.com/56067179/110725667-4ec37800-825b-11eb-8bb4-ba157bb33553.PNG" width="500"/>
+<img src="https://user-images.githubusercontent.com/56067179/110725663-4d924b00-825b-11eb-947e-59a4d0174e62.PNG" width="600"/>
+<img src="https://user-images.githubusercontent.com/56067179/110725667-4ec37800-825b-11eb-8bb4-ba157bb33553.PNG" width="600"/>
 
 
